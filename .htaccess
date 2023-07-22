@@ -1,0 +1,29 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+# Really Simple SSL
+Header always set Strict-Transport-Security: "max-age=31536000" env=HTTPS
+Header always set Content-Security-Policy "upgrade-insecure-requests"
+Header always set Content-Security-Policy: frame-ancestors 'none'
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-XSS-Protection "1; mode=block"
+Header always set Expect-CT "max-age=7776000, enforce"
+Header always set Referrer-Policy: "no-referrer-when-downgrade"
+Header always set X-Frame-Options: "SAMEORIGIN"
+Header always set Permissions-Policy: "" 
+# End Really Simple SSL
+
+php_value memory_limit 516
+php_value upload_max_filesize 128M
+php_value post_max_size 128M
+php_value max_execution_time 600
+php_value max_input_vars 5000
+php_value max_input_time 1000

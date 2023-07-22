@@ -1,0 +1,650 @@
+0000.005 () Opened log file at time: Mon, 10 Jul 2023 16:21:11 +0000 on https://dev01.chetoz-oz.com.au
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.23.7.26 WP: 6.2.2 PHP: 7.4.33 (fpm-fcgi, Linux server.markashosting.com 4.19.0-23-amd64 #1 SMP Debian 4.19.269-1 (2022-12-20) x86_64) MySQL: 10.3.24-MariaDB-log (max packet size=1073741824) WPLANG: en_US Server: nginx/1.21.4 safe_mode: 0 max_execution_time: 900 memory_limit: 5000M (used: 6.7M | 2M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 28178.7 MB
+0000.039 () Restore setup, now closing connection and starting restore over AJAX.
+0000.005 () Opened log file at time: Mon, 10 Jul 2023 16:21:11 +0000 on https://dev01.chetoz-oz.com.au
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.23.7.26 WP: 6.2.2 PHP: 7.4.33 (fpm-fcgi, Linux server.markashosting.com 4.19.0-23-amd64 #1 SMP Debian 4.19.269-1 (2022-12-20) x86_64) MySQL: 10.3.24-MariaDB-log (max packet size=1073741824) WPLANG: en_US Server: nginx/1.21.4 safe_mode: 0 max_execution_time: 900 memory_limit: 5000M (used: 4.8M | 2M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 28178.6 MB
+0000.036 () Ensuring WP_Filesystem is setup for a restore
+0000.037 () WP_Filesystem is setup and ready for a restore
+0000.043 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_incremental_restore_point":1689040320,"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["axm_options","axm_users","axm_usermeta","axm_actionscheduler_actions","axm_actionscheduler_claims","axm_actionscheduler_groups","axm_actionscheduler_logs","axm_commentmeta","axm_comments","axm_links","axm_postmeta","axm_posts","axm_term_relationships","axm_term_taxonomy","axm_termmeta","axm_terms","axm_wc_category_lookup","axm_wc_product_meta_lookup","axm_wc_reserved_stock","axm_wc_tax_rate_classes","axm_woocommerce_order_itemmeta","axm_woocommerce_payment_tokenmeta","axm_addonlibrary_addons","axm_addonlibrary_categories","axm_duplicator_packages","axm_duplicator_pro_entities","axm_duplicator_pro_packages","axm_e_events","axm_e_submissions","axm_e_submissions_actions_log","axm_e_submissions_values","axm_ff_scheduled_actions","axm_fluentform_entry_details","axm_fluentform_form_analytics","axm_fluentform_form_meta","axm_fluentform_forms","axm_fluentform_logs","axm_fluentform_submission_meta","axm_fluentform_submissions","axm_mclean_refs","axm_mclean_scan","axm_nf3_action_meta","axm_nf3_actions","axm_nf3_chunks","axm_nf3_field_meta","axm_nf3_fields","axm_nf3_form_meta","axm_nf3_forms","axm_nf3_object_meta","axm_nf3_objects","axm_nf3_relationships","axm_nf3_upgrades","axm_ninja_table_items","axm_revslider_css","axm_revslider_css_bkp","axm_revslider_layer_animations","axm_revslider_layer_animations_bkp","axm_revslider_navigations","axm_revslider_navigations_bkp","axm_revslider_sliders","axm_revslider_sliders_bkp","axm_revslider_slides","axm_revslider_slides_bkp","axm_revslider_static_slides","axm_revslider_static_slides_bkp","axm_rsssl_csp_log","axm_rsssl_xmlrpc","axm_tm_taskmeta","axm_tm_tasks","axm_wc_admin_note_actions","axm_wc_admin_notes","axm_wc_customer_lookup","axm_wc_download_log","axm_wc_order_bundle_lookup","axm_wc_order_coupon_lookup","axm_wc_order_product_lookup","axm_wc_order_stats","axm_wc_order_tax_lookup","axm_wc_product_attributes_lookup","axm_wc_product_download_directories","axm_wc_rate_limits","axm_wc_webhooks","axm_wdap_backups","axm_wdap_collection","axm_wdap_geocode_details","axm_woocommerce_api_keys","axm_woocommerce_attribute_taxonomies","axm_woocommerce_bundled_itemmeta","axm_woocommerce_bundled_items","axm_woocommerce_downloadable_product_permissions","axm_woocommerce_log","axm_woocommerce_order_items","axm_woocommerce_payment_tokens","axm_woocommerce_sessions","axm_woocommerce_shipping_zone_locations","axm_woocommerce_shipping_zone_methods","axm_woocommerce_shipping_zones","axm_woocommerce_square_customers","axm_woocommerce_tax_rate_locations","axm_woocommerce_tax_rates","axm_yoast_indexable","axm_yoast_indexable_hierarchy","axm_yoast_migrations","axm_yoast_primary_term","axm_yoast_prominent_words","axm_yoast_seo_links"],"tables_to_skip":[],"include_unspecified_plugins":false,"plugins_to_restore":["booster-plus-for-woocommerce","classic-editor","colorlib-login-customizer","disable-admin-notices","elementor","elementor-pro","error-log-monitor","essential-addons-elementor","essential-addons-for-elementor-lite","favhero-favicon-generator","filter-everything-pro","import-products-from-gsheet-for-woo-importer","markup-by-attribute-for-woocommerce","media-cleaner-pro","ninja-tables","ninja-tables-pro","panpie-core","revslider","shipping-zone-duplicator-for-woocommerce","skyboot-custom-icons-for-elementor","unlimited-elements-for-elementor-premium","updraftplus","woocommerce","woocommerce-advanced-shipping","woocommerce-checkout-field-editor-pro","woocommerce-extra-product-options-pro","woocommerce-gateway-stripe","wordpress-seo","wordpress-seo-premium","wp-multi-step-checkout-pro","wps-hide-login","xt-woo-quick-view"],"plugins_to_skip":[],"include_unspecified_themes":false,"themes_to_restore":["chetoz","panpie","storefront","twentytwentyone","twentytwentythree","twentytwentytwo"],"themes_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.053 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.057 () Entity: db
+0000.058 () restore_backup(backup_file=backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-db.gz, type=db, info=a:0:{}, last_one=)
+0000.058 () Unpacking backup... (backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-db.gz, 5.7 Mb)
+0000.068 () Database successfully unpacked
+0000.070 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.070 () Using direct MySQL access; value of use_mysqli is: 1
+0000.071 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION
+0000.093 () Max packet size: 1024 MB
+0000.093 () Entering maintenance mode
+0000.093 () Enabling Maintenance mode&#8230;
+0000.099 () Backup of: https://dev.chetozoz.com.au
+0000.136 () Content URL: https://dev.chetozoz.com.au/wp-content
+0000.136 () Uploads URL: https://dev.chetozoz.com.au/wp-content/uploads
+0000.136 () Old table prefix: axm_
+0000.136 () Old ABSPATH: /www/wwwroot/dev.chetozoz.com.au/
+0000.136 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.137 () Site information: multisite=0
+0000.137 () Site information: sql_mode=NO_ENGINE_SUBSTITUTION
+0000.140 () New table prefix: aw_
+0000.146 () Processing table (InnoDB): axm_options - will restore as: aw_options
+0000.511 () Atomic restore: dropping original table (voCV6_options)
+0000.513 () Atomic restore: renaming new table (aw_options) to final table name (voCV6_options)
+0000.516 () Restoring prior UD configuration (table: voCV6_options; keys: 101)
+0000.865 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.865 () Options table fields changed OK
+0000.875 () Search and replacing table: voCV6_options: rows: 1720
+0001.084 () Incomplete object detected in database: Elementor\Core\Logger\Items\Base; Search and replace will be skipped for these entries
+0001.085 () Incomplete object detected in database: Elementor\Core\Logger\Items\JS; Search and replace will be skipped for these entries
+0001.085 () Incomplete object detected in database: Elementor\Core\Logger\Items\PHP; Search and replace will be skipped for these entries
+0001.190 () Incomplete object detected in database: WPCF7_FormTag; Search and replace will be skipped for these entries
+0001.220 () Incomplete object detected in database: DUP_Package; Search and replace will be skipped for these entries
+0001.391 () Incomplete object detected in database: WCFE_Checkout_Section; Search and replace will be skipped for these entries
+0001.408 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0001.764 () Incomplete object detected in database: WEPO_Product_Page_Section; Search and replace will be skipped for these entries
+0001.805 () Incomplete object detected in database: WPStaging\Backup\Dto\Job\JobBackupDataDto; Search and replace will be skipped for these entries
+0002.224 () Processing table (InnoDB): axm_users - will restore as: aw_users
+0002.237 () Atomic restore: dropping original table (voCV6_users)
+0002.238 () Atomic restore: renaming new table (aw_users) to final table name (voCV6_users)
+0002.242 () Search and replacing table: voCV6_users: rows: 1
+0002.243 () Processing table (InnoDB): axm_usermeta - will restore as: aw_usermeta
+0002.256 () Atomic restore: dropping original table (voCV6_usermeta)
+0002.258 () Atomic restore: renaming new table (aw_usermeta) to final table name (voCV6_usermeta)
+0002.260 () Table prefix has changed: changing usermeta table field(s) accordingly
+0002.261 () Usermeta table fields changed OK
+0002.263 () Search and replacing table: voCV6_usermeta: rows: 53
+0002.273 () Processing table (InnoDB): axm_actionscheduler_actions - will restore as: aw_actionscheduler_actions
+0008.062 () Database queries processed: 50 in 7.99 seconds
+0009.691 () Atomic restore: dropping original table (voCV6_actionscheduler_actions)
+0009.692 () Atomic restore: renaming new table (aw_actionscheduler_actions) to final table name (voCV6_actionscheduler_actions)
+0009.718 () Search and replacing table: voCV6_actionscheduler_actions: rows: 45063
+0009.762 () Incomplete object detected in database: ActionScheduler_SimpleSchedule; Search and replace will be skipped for these entries
+0009.762 () Incomplete object detected in database: ActionScheduler_IntervalSchedule; Search and replace will be skipped for these entries
+0009.763 () Incomplete object detected in database: ActionScheduler_NullSchedule; Search and replace will be skipped for these entries
+0010.816 () Searching and replacing reached row: 5000
+0011.764 () Searching and replacing reached row: 10000
+0012.501 () Searching and replacing reached row: 15000
+0013.252 () Searching and replacing reached row: 20000
+0014.073 () Searching and replacing reached row: 25000
+0014.887 () Searching and replacing reached row: 30000
+0015.824 () Searching and replacing reached row: 35000
+0016.730 () Searching and replacing reached row: 40000
+0017.664 () Searching and replacing reached row: 45000
+0017.801 () Processing table (InnoDB): axm_actionscheduler_claims - will restore as: aw_actionscheduler_claims
+0017.809 () Atomic restore: dropping original table (voCV6_actionscheduler_claims)
+0017.809 () Atomic restore: renaming new table (aw_actionscheduler_claims) to final table name (voCV6_actionscheduler_claims)
+0017.812 () Search and replacing table: voCV6_actionscheduler_claims: rows: 0
+0017.812 () Processing table (InnoDB): axm_actionscheduler_groups - will restore as: aw_actionscheduler_groups
+0017.819 () Atomic restore: dropping original table (voCV6_actionscheduler_groups)
+0017.820 () Atomic restore: renaming new table (aw_actionscheduler_groups) to final table name (voCV6_actionscheduler_groups)
+0017.822 () Search and replacing table: voCV6_actionscheduler_groups: rows: 7
+0017.823 () Processing table (InnoDB): axm_actionscheduler_logs - will restore as: aw_actionscheduler_logs
+0027.012 () Database queries processed: 100 in 26.94 seconds
+0029.049 () Atomic restore: dropping original table (voCV6_actionscheduler_logs)
+0029.049 () Atomic restore: renaming new table (aw_actionscheduler_logs) to final table name (voCV6_actionscheduler_logs)
+0029.078 () Search and replacing table: voCV6_actionscheduler_logs: rows: 135179
+0029.421 () Searching and replacing reached row: 5000
+0029.739 () Searching and replacing reached row: 10000
+0030.025 () Searching and replacing reached row: 15000
+0030.495 () Searching and replacing reached row: 20000
+0031.024 () Searching and replacing reached row: 25000
+0031.558 () Searching and replacing reached row: 30000
+0032.058 () Searching and replacing reached row: 35000
+0032.562 () Searching and replacing reached row: 40000
+0033.072 () Searching and replacing reached row: 45000
+0033.589 () Searching and replacing reached row: 50000
+0034.132 () Searching and replacing reached row: 55000
+0034.716 () Searching and replacing reached row: 60000
+0035.293 () Searching and replacing reached row: 65000
+0035.891 () Searching and replacing reached row: 70000
+0036.487 () Searching and replacing reached row: 75000
+0037.089 () Searching and replacing reached row: 80000
+0037.658 () Searching and replacing reached row: 85000
+0038.295 () Searching and replacing reached row: 90000
+0038.922 () Searching and replacing reached row: 95000
+0039.550 () Searching and replacing reached row: 100000
+0040.157 () Searching and replacing reached row: 105000
+0040.816 () Searching and replacing reached row: 110000
+0041.466 () Searching and replacing reached row: 115000
+0042.133 () Searching and replacing reached row: 120000
+0042.812 () Searching and replacing reached row: 125000
+0043.484 () Searching and replacing reached row: 130000
+0044.163 () Searching and replacing reached row: 135000
+0044.367 () Processing table (InnoDB): axm_commentmeta - will restore as: aw_commentmeta
+0044.376 () Atomic restore: dropping original table (voCV6_commentmeta)
+0044.377 () Atomic restore: renaming new table (aw_commentmeta) to final table name (voCV6_commentmeta)
+0044.380 () Search and replacing table: voCV6_commentmeta: rows: 0
+0044.380 () Processing table (InnoDB): axm_comments - will restore as: aw_comments
+0044.393 () Atomic restore: dropping original table (voCV6_comments)
+0044.394 () Atomic restore: renaming new table (aw_comments) to final table name (voCV6_comments)
+0044.397 () Search and replacing table: voCV6_comments: rows: 5
+0044.401 () Processing table (InnoDB): axm_links - will restore as: aw_links
+0044.406 () Atomic restore: dropping original table (voCV6_links)
+0044.407 () Atomic restore: renaming new table (aw_links) to final table name (voCV6_links)
+0044.410 () Search and replacing table: voCV6_links: rows: 0
+0044.410 () Processing table (InnoDB): axm_postmeta - will restore as: aw_postmeta
+0062.987 () Database queries processed: 150 in 62.91 seconds
+0080.885 () Atomic restore: dropping original table (voCV6_postmeta)
+0080.887 () Atomic restore: renaming new table (aw_postmeta) to final table name (voCV6_postmeta)
+0081.534 () Search and replacing table: voCV6_postmeta: rows: 522
+0084.386 () Processing table (InnoDB): axm_posts - will restore as: aw_posts
+0086.555 () Database queries processed: 200 in 86.48 seconds
+0087.311 () Atomic restore: dropping original table (voCV6_posts)
+0087.314 () Atomic restore: renaming new table (aw_posts) to final table name (voCV6_posts)
+0087.318 () Skipping search/replace on GUID column in posts table
+0087.327 () Search and replacing table: voCV6_posts: rows: 14632
+0089.556 () Searching and replacing reached row: 5000
+0090.710 () Searching and replacing reached row: 10000
+0091.574 () Processing table (InnoDB): axm_term_relationships - will restore as: aw_term_relationships
+0092.193 () Atomic restore: dropping original table (voCV6_term_relationships)
+0092.195 () Atomic restore: renaming new table (aw_term_relationships) to final table name (voCV6_term_relationships)
+0092.197 () Skipping this table: data in this table (voCV6_term_relationships) should not be search/replaced
+0092.197 () Processing table (InnoDB): axm_term_taxonomy - will restore as: aw_term_taxonomy
+0092.209 () Atomic restore: dropping original table (voCV6_term_taxonomy)
+0092.210 () Atomic restore: renaming new table (aw_term_taxonomy) to final table name (voCV6_term_taxonomy)
+0092.214 () Search and replacing table: voCV6_term_taxonomy: rows: 100
+0092.221 () Processing table (InnoDB): axm_termmeta - will restore as: aw_termmeta
+0092.230 () Atomic restore: dropping original table (voCV6_termmeta)
+0092.231 () Atomic restore: renaming new table (aw_termmeta) to final table name (voCV6_termmeta)
+0092.234 () Search and replacing table: voCV6_termmeta: rows: 90
+0092.239 () Processing table (InnoDB): axm_terms - will restore as: aw_terms
+0092.249 () Atomic restore: dropping original table (voCV6_terms)
+0092.250 () Atomic restore: renaming new table (aw_terms) to final table name (voCV6_terms)
+0092.253 () Search and replacing table: voCV6_terms: rows: 100
+0092.258 () Processing table (InnoDB): axm_wc_category_lookup - will restore as: aw_wc_category_lookup
+0092.266 () Atomic restore: dropping original table (voCV6_wc_category_lookup)
+0092.266 () Atomic restore: renaming new table (aw_wc_category_lookup) to final table name (voCV6_wc_category_lookup)
+0092.269 () Search and replacing table: voCV6_wc_category_lookup: rows: 7
+0092.270 () Processing table (InnoDB): axm_wc_product_meta_lookup - will restore as: aw_wc_product_meta_lookup
+0093.201 () Atomic restore: dropping original table (voCV6_wc_product_meta_lookup)
+0093.201 () Atomic restore: renaming new table (aw_wc_product_meta_lookup) to final table name (voCV6_wc_product_meta_lookup)
+0093.213 () Search and replacing table: voCV6_wc_product_meta_lookup: rows: 13549
+0094.090 () Searching and replacing reached row: 5000
+0094.569 () Searching and replacing reached row: 10000
+0094.914 () Processing table (InnoDB): axm_wc_reserved_stock - will restore as: aw_wc_reserved_stock
+0094.922 () Atomic restore: dropping original table (voCV6_wc_reserved_stock)
+0094.922 () Atomic restore: renaming new table (aw_wc_reserved_stock) to final table name (voCV6_wc_reserved_stock)
+0094.925 () Search and replacing table: voCV6_wc_reserved_stock: rows: 0
+0094.925 () Processing table (InnoDB): axm_wc_tax_rate_classes - will restore as: aw_wc_tax_rate_classes
+0094.931 () Atomic restore: dropping original table (voCV6_wc_tax_rate_classes)
+0094.931 () Atomic restore: renaming new table (aw_wc_tax_rate_classes) to final table name (voCV6_wc_tax_rate_classes)
+0094.935 () Search and replacing table: voCV6_wc_tax_rate_classes: rows: 2
+0094.935 () Processing table (InnoDB): axm_woocommerce_order_itemmeta - will restore as: aw_woocommerce_order_itemmeta
+0094.943 () Atomic restore: dropping original table (voCV6_woocommerce_order_itemmeta)
+0094.943 () Atomic restore: renaming new table (aw_woocommerce_order_itemmeta) to final table name (voCV6_woocommerce_order_itemmeta)
+0094.947 () Search and replacing table: voCV6_woocommerce_order_itemmeta: rows: 0
+0094.947 () Processing table (InnoDB): axm_woocommerce_payment_tokenmeta - will restore as: aw_woocommerce_payment_tokenmeta
+0094.955 () Atomic restore: dropping original table (voCV6_woocommerce_payment_tokenmeta)
+0094.955 () Atomic restore: renaming new table (aw_woocommerce_payment_tokenmeta) to final table name (voCV6_woocommerce_payment_tokenmeta)
+0094.958 () Search and replacing table: voCV6_woocommerce_payment_tokenmeta: rows: 0
+0094.958 () Processing table (InnoDB): axm_addonlibrary_addons - will restore as: aw_addonlibrary_addons
+0094.973 () Atomic restore: dropping original table (voCV6_addonlibrary_addons)
+0094.973 () Atomic restore: renaming new table (aw_addonlibrary_addons) to final table name (voCV6_addonlibrary_addons)
+0094.976 () Search and replacing table: voCV6_addonlibrary_addons: rows: 3
+0095.014 () Processing table (InnoDB): axm_addonlibrary_categories - will restore as: aw_addonlibrary_categories
+0095.021 () Atomic restore: dropping original table (voCV6_addonlibrary_categories)
+0095.021 () Database queries processed: 250 in 94.95 seconds
+0095.021 () Atomic restore: renaming new table (aw_addonlibrary_categories) to final table name (voCV6_addonlibrary_categories)
+0095.023 () Search and replacing table: voCV6_addonlibrary_categories: rows: 3
+0095.024 () Processing table (InnoDB): axm_duplicator_packages - will restore as: aw_duplicator_packages
+0095.030 () Atomic restore: dropping original table (voCV6_duplicator_packages)
+0095.031 () Atomic restore: renaming new table (aw_duplicator_packages) to final table name (voCV6_duplicator_packages)
+0095.034 () Search and replacing table: voCV6_duplicator_packages: rows: 1
+0095.035 () Processing table (InnoDB): axm_duplicator_pro_entities - will restore as: aw_duplicator_pro_entities
+0095.042 () Atomic restore: dropping original table (voCV6_duplicator_pro_entities)
+0095.042 () Atomic restore: renaming new table (aw_duplicator_pro_entities) to final table name (voCV6_duplicator_pro_entities)
+0095.044 () Search and replacing table: voCV6_duplicator_pro_entities: rows: 5
+0095.048 () Processing table (InnoDB): axm_duplicator_pro_packages - will restore as: aw_duplicator_pro_packages
+0095.055 () Atomic restore: dropping original table (voCV6_duplicator_pro_packages)
+0095.055 () Atomic restore: renaming new table (aw_duplicator_pro_packages) to final table name (voCV6_duplicator_pro_packages)
+0095.057 () Search and replacing table: voCV6_duplicator_pro_packages: rows: 1
+0095.063 () Processing table (InnoDB): axm_e_events - will restore as: aw_e_events
+0095.069 () Atomic restore: dropping original table (voCV6_e_events)
+0095.070 () Atomic restore: renaming new table (aw_e_events) to final table name (voCV6_e_events)
+0095.073 () Search and replacing table: voCV6_e_events: rows: 0
+0095.073 () Processing table (InnoDB): axm_e_submissions - will restore as: aw_e_submissions
+0095.087 () Atomic restore: dropping original table (voCV6_e_submissions)
+0095.087 () Atomic restore: renaming new table (aw_e_submissions) to final table name (voCV6_e_submissions)
+0095.092 () Search and replacing table: voCV6_e_submissions: rows: 0
+0095.092 () Processing table (InnoDB): axm_e_submissions_actions_log - will restore as: aw_e_submissions_actions_log
+0095.102 () Atomic restore: dropping original table (voCV6_e_submissions_actions_log)
+0095.103 () Atomic restore: renaming new table (aw_e_submissions_actions_log) to final table name (voCV6_e_submissions_actions_log)
+0095.106 () Search and replacing table: voCV6_e_submissions_actions_log: rows: 0
+0095.106 () Processing table (InnoDB): axm_e_submissions_values - will restore as: aw_e_submissions_values
+0095.114 () Atomic restore: dropping original table (voCV6_e_submissions_values)
+0095.115 () Atomic restore: renaming new table (aw_e_submissions_values) to final table name (voCV6_e_submissions_values)
+0095.118 () Search and replacing table: voCV6_e_submissions_values: rows: 0
+0095.118 () Processing table (InnoDB): axm_ff_scheduled_actions - will restore as: aw_ff_scheduled_actions
+0095.125 () Atomic restore: dropping original table (voCV6_ff_scheduled_actions)
+0095.125 () Atomic restore: renaming new table (aw_ff_scheduled_actions) to final table name (voCV6_ff_scheduled_actions)
+0095.128 () Search and replacing table: voCV6_ff_scheduled_actions: rows: 0
+0095.128 () Processing table (InnoDB): axm_fluentform_entry_details - will restore as: aw_fluentform_entry_details
+0095.135 () Atomic restore: dropping original table (voCV6_fluentform_entry_details)
+0095.136 () Atomic restore: renaming new table (aw_fluentform_entry_details) to final table name (voCV6_fluentform_entry_details)
+0095.138 () Search and replacing table: voCV6_fluentform_entry_details: rows: 12
+0095.140 () Processing table (InnoDB): axm_fluentform_form_analytics - will restore as: aw_fluentform_form_analytics
+0095.147 () Atomic restore: dropping original table (voCV6_fluentform_form_analytics)
+0095.148 () Atomic restore: renaming new table (aw_fluentform_form_analytics) to final table name (voCV6_fluentform_form_analytics)
+0095.150 () Search and replacing table: voCV6_fluentform_form_analytics: rows: 69
+0095.179 () Processing table (InnoDB): axm_fluentform_form_meta - will restore as: aw_fluentform_form_meta
+0095.188 () Atomic restore: dropping original table (voCV6_fluentform_form_meta)
+0095.188 () Atomic restore: renaming new table (aw_fluentform_form_meta) to final table name (voCV6_fluentform_form_meta)
+0095.191 () Search and replacing table: voCV6_fluentform_form_meta: rows: 6
+0095.193 () Processing table (InnoDB): axm_fluentform_forms - will restore as: aw_fluentform_forms
+0095.201 () Atomic restore: dropping original table (voCV6_fluentform_forms)
+0095.202 () Atomic restore: renaming new table (aw_fluentform_forms) to final table name (voCV6_fluentform_forms)
+0095.205 () Search and replacing table: voCV6_fluentform_forms: rows: 2
+0095.209 () Processing table (InnoDB): axm_fluentform_logs - will restore as: aw_fluentform_logs
+0095.217 () Atomic restore: dropping original table (voCV6_fluentform_logs)
+0095.217 () Atomic restore: renaming new table (aw_fluentform_logs) to final table name (voCV6_fluentform_logs)
+0095.220 () Search and replacing table: voCV6_fluentform_logs: rows: 0
+0095.220 () Processing table (InnoDB): axm_fluentform_submission_meta - will restore as: aw_fluentform_submission_meta
+0095.228 () Atomic restore: dropping original table (voCV6_fluentform_submission_meta)
+0095.228 () Atomic restore: renaming new table (aw_fluentform_submission_meta) to final table name (voCV6_fluentform_submission_meta)
+0095.231 () Search and replacing table: voCV6_fluentform_submission_meta: rows: 6
+0095.233 () Processing table (InnoDB): axm_fluentform_submissions - will restore as: aw_fluentform_submissions
+0095.241 () Atomic restore: dropping original table (voCV6_fluentform_submissions)
+0095.241 () Atomic restore: renaming new table (aw_fluentform_submissions) to final table name (voCV6_fluentform_submissions)
+0095.244 () Search and replacing table: voCV6_fluentform_submissions: rows: 3
+0095.247 () Processing table (InnoDB): axm_mclean_refs - will restore as: aw_mclean_refs
+0095.287 () Atomic restore: dropping original table (voCV6_mclean_refs)
+0095.287 () Atomic restore: renaming new table (aw_mclean_refs) to final table name (voCV6_mclean_refs)
+0095.290 () Search and replacing table: voCV6_mclean_refs: rows: 1361
+0095.366 () Processing table (InnoDB): axm_mclean_scan - will restore as: aw_mclean_scan
+0095.378 () Atomic restore: dropping original table (voCV6_mclean_scan)
+0095.378 () Atomic restore: renaming new table (aw_mclean_scan) to final table name (voCV6_mclean_scan)
+0095.382 () Search and replacing table: voCV6_mclean_scan: rows: 73
+0095.389 () Processing table (InnoDB): axm_nf3_action_meta - will restore as: aw_nf3_action_meta
+0095.398 () Atomic restore: dropping original table (voCV6_nf3_action_meta)
+0095.398 () Atomic restore: renaming new table (aw_nf3_action_meta) to final table name (voCV6_nf3_action_meta)
+0095.402 () Search and replacing table: voCV6_nf3_action_meta: rows: 78
+0095.408 () Processing table (InnoDB): axm_nf3_actions - will restore as: aw_nf3_actions
+0095.417 () Atomic restore: dropping original table (voCV6_nf3_actions)
+0095.417 () Atomic restore: renaming new table (aw_nf3_actions) to final table name (voCV6_nf3_actions)
+0095.420 () Search and replacing table: voCV6_nf3_actions: rows: 4
+0095.421 () Processing table (InnoDB): axm_nf3_chunks - will restore as: aw_nf3_chunks
+0095.428 () Atomic restore: dropping original table (voCV6_nf3_chunks)
+0095.428 () Atomic restore: renaming new table (aw_nf3_chunks) to final table name (voCV6_nf3_chunks)
+0095.431 () Search and replacing table: voCV6_nf3_chunks: rows: 0
+0095.431 () Processing table (InnoDB): axm_nf3_field_meta - will restore as: aw_nf3_field_meta
+0095.443 () Atomic restore: dropping original table (voCV6_nf3_field_meta)
+0095.444 () Atomic restore: renaming new table (aw_nf3_field_meta) to final table name (voCV6_nf3_field_meta)
+0095.447 () Search and replacing table: voCV6_nf3_field_meta: rows: 252
+0095.464 () Processing table (InnoDB): axm_nf3_fields - will restore as: aw_nf3_fields
+0095.473 () Atomic restore: dropping original table (voCV6_nf3_fields)
+0095.473 () Atomic restore: renaming new table (aw_nf3_fields) to final table name (voCV6_nf3_fields)
+0095.476 () Search and replacing table: voCV6_nf3_fields: rows: 4
+0095.477 () Processing table (InnoDB): axm_nf3_form_meta - will restore as: aw_nf3_form_meta
+0095.487 () Atomic restore: dropping original table (voCV6_nf3_form_meta)
+0095.487 () Atomic restore: renaming new table (aw_nf3_form_meta) to final table name (voCV6_nf3_form_meta)
+0095.490 () Search and replacing table: voCV6_nf3_form_meta: rows: 98
+0095.498 () Processing table (InnoDB): axm_nf3_forms - will restore as: aw_nf3_forms
+0095.506 () Atomic restore: dropping original table (voCV6_nf3_forms)
+0095.506 () Atomic restore: renaming new table (aw_nf3_forms) to final table name (voCV6_nf3_forms)
+0095.510 () Search and replacing table: voCV6_nf3_forms: rows: 1
+0095.510 () Processing table (InnoDB): axm_nf3_object_meta - will restore as: aw_nf3_object_meta
+0095.518 () Atomic restore: dropping original table (voCV6_nf3_object_meta)
+0095.518 () Atomic restore: renaming new table (aw_nf3_object_meta) to final table name (voCV6_nf3_object_meta)
+0095.522 () Search and replacing table: voCV6_nf3_object_meta: rows: 0
+0095.522 () Processing table (InnoDB): axm_nf3_objects - will restore as: aw_nf3_objects
+0095.529 () Atomic restore: dropping original table (voCV6_nf3_objects)
+0095.529 () Atomic restore: renaming new table (aw_nf3_objects) to final table name (voCV6_nf3_objects)
+0095.532 () Search and replacing table: voCV6_nf3_objects: rows: 0
+0095.532 () Processing table (InnoDB): axm_nf3_relationships - will restore as: aw_nf3_relationships
+0095.539 () Atomic restore: dropping original table (voCV6_nf3_relationships)
+0095.539 () Atomic restore: renaming new table (aw_nf3_relationships) to final table name (voCV6_nf3_relationships)
+0095.542 () Search and replacing table: voCV6_nf3_relationships: rows: 0
+0095.543 () Processing table (InnoDB): axm_nf3_upgrades - will restore as: aw_nf3_upgrades
+0095.551 () Atomic restore: dropping original table (voCV6_nf3_upgrades)
+0095.551 () Atomic restore: renaming new table (aw_nf3_upgrades) to final table name (voCV6_nf3_upgrades)
+0095.554 () Search and replacing table: voCV6_nf3_upgrades: rows: 1
+0095.558 () Processing table (InnoDB): axm_ninja_table_items - will restore as: aw_ninja_table_items
+0095.565 () Atomic restore: dropping original table (voCV6_ninja_table_items)
+0095.566 () Atomic restore: renaming new table (aw_ninja_table_items) to final table name (voCV6_ninja_table_items)
+0095.569 () Search and replacing table: voCV6_ninja_table_items: rows: 0
+0095.569 () Processing table (InnoDB): axm_revslider_css - will restore as: aw_revslider_css
+0095.588 () Atomic restore: dropping original table (voCV6_revslider_css)
+0095.588 () Atomic restore: renaming new table (aw_revslider_css) to final table name (voCV6_revslider_css)
+0095.592 () Search and replacing table: voCV6_revslider_css: rows: 109
+0095.658 () Processing table (InnoDB): axm_revslider_css_bkp - will restore as: aw_revslider_css_bkp
+0095.671 () Atomic restore: dropping original table (voCV6_revslider_css_bkp)
+0095.672 () Atomic restore: renaming new table (aw_revslider_css_bkp) to final table name (voCV6_revslider_css_bkp)
+0095.676 () Search and replacing table: voCV6_revslider_css_bkp: rows: 47
+0095.688 () Processing table (InnoDB): axm_revslider_layer_animations - will restore as: aw_revslider_layer_animations
+0095.697 () Atomic restore: dropping original table (voCV6_revslider_layer_animations)
+0095.698 () Atomic restore: renaming new table (aw_revslider_layer_animations) to final table name (voCV6_revslider_layer_animations)
+0095.702 () Search and replacing table: voCV6_revslider_layer_animations: rows: 0
+0095.702 () Processing table (InnoDB): axm_revslider_layer_animations_bkp - will restore as: aw_revslider_layer_animations_bkp
+0095.711 () Atomic restore: dropping original table (voCV6_revslider_layer_animations_bkp)
+0095.712 () Atomic restore: renaming new table (aw_revslider_layer_animations_bkp) to final table name (voCV6_revslider_layer_animations_bkp)
+0095.716 () Search and replacing table: voCV6_revslider_layer_animations_bkp: rows: 0
+0095.716 () Processing table (InnoDB): axm_revslider_navigations - will restore as: aw_revslider_navigations
+0095.726 () Atomic restore: dropping original table (voCV6_revslider_navigations)
+0095.726 () Atomic restore: renaming new table (aw_revslider_navigations) to final table name (voCV6_revslider_navigations)
+0095.731 () Search and replacing table: voCV6_revslider_navigations: rows: 0
+0095.731 () Processing table (InnoDB): axm_revslider_navigations_bkp - will restore as: aw_revslider_navigations_bkp
+0095.741 () Atomic restore: dropping original table (voCV6_revslider_navigations_bkp)
+0095.741 () Atomic restore: renaming new table (aw_revslider_navigations_bkp) to final table name (voCV6_revslider_navigations_bkp)
+0095.745 () Search and replacing table: voCV6_revslider_navigations_bkp: rows: 0
+0095.745 () Processing table (InnoDB): axm_revslider_sliders - will restore as: aw_revslider_sliders
+0095.758 () Atomic restore: dropping original table (voCV6_revslider_sliders)
+0095.759 () Atomic restore: renaming new table (aw_revslider_sliders) to final table name (voCV6_revslider_sliders)
+0095.763 () Search and replacing table: voCV6_revslider_sliders: rows: 4
+0095.784 () Processing table (InnoDB): axm_revslider_sliders_bkp - will restore as: aw_revslider_sliders_bkp
+0095.795 () Atomic restore: dropping original table (voCV6_revslider_sliders_bkp)
+0095.796 () Atomic restore: renaming new table (aw_revslider_sliders_bkp) to final table name (voCV6_revslider_sliders_bkp)
+0095.801 () Search and replacing table: voCV6_revslider_sliders_bkp: rows: 2
+0095.811 () Processing table (InnoDB): axm_revslider_slides - will restore as: aw_revslider_slides
+0095.833 () Atomic restore: dropping original table (voCV6_revslider_slides)
+0095.834 () Atomic restore: renaming new table (aw_revslider_slides) to final table name (voCV6_revslider_slides)
+0095.838 () Search and replacing table: voCV6_revslider_slides: rows: 9
+0095.976 () Processing table (InnoDB): axm_revslider_slides_bkp - will restore as: aw_revslider_slides_bkp
+0095.994 () Atomic restore: dropping original table (voCV6_revslider_slides_bkp)
+0095.994 () Atomic restore: renaming new table (aw_revslider_slides_bkp) to final table name (voCV6_revslider_slides_bkp)
+0095.999 () Search and replacing table: voCV6_revslider_slides_bkp: rows: 4
+0096.092 () Processing table (InnoDB): axm_revslider_static_slides - will restore as: aw_revslider_static_slides
+0096.105 () Atomic restore: dropping original table (voCV6_revslider_static_slides)
+0096.106 () Atomic restore: renaming new table (aw_revslider_static_slides) to final table name (voCV6_revslider_static_slides)
+0096.110 () Search and replacing table: voCV6_revslider_static_slides: rows: 4
+0096.112 () Processing table (InnoDB): axm_revslider_static_slides_bkp - will restore as: aw_revslider_static_slides_bkp
+0096.122 () Atomic restore: dropping original table (voCV6_revslider_static_slides_bkp)
+0096.123 () Atomic restore: renaming new table (aw_revslider_static_slides_bkp) to final table name (voCV6_revslider_static_slides_bkp)
+0096.127 () Search and replacing table: voCV6_revslider_static_slides_bkp: rows: 2
+0096.128 () Processing table (InnoDB): axm_rsssl_csp_log - will restore as: aw_rsssl_csp_log
+0096.137 () Atomic restore: dropping original table (voCV6_rsssl_csp_log)
+0096.137 () Atomic restore: renaming new table (aw_rsssl_csp_log) to final table name (voCV6_rsssl_csp_log)
+0096.141 () Search and replacing table: voCV6_rsssl_csp_log: rows: 0
+0096.141 () Processing table (InnoDB): axm_rsssl_xmlrpc - will restore as: aw_rsssl_xmlrpc
+0096.151 () Atomic restore: dropping original table (voCV6_rsssl_xmlrpc)
+0096.151 () Atomic restore: renaming new table (aw_rsssl_xmlrpc) to final table name (voCV6_rsssl_xmlrpc)
+0096.156 () Search and replacing table: voCV6_rsssl_xmlrpc: rows: 0
+0096.156 () Processing table (InnoDB): axm_tm_taskmeta - will restore as: aw_tm_taskmeta
+0096.166 () Atomic restore: dropping original table (voCV6_tm_taskmeta)
+0096.166 () Atomic restore: renaming new table (aw_tm_taskmeta) to final table name (voCV6_tm_taskmeta)
+0096.171 () Search and replacing table: voCV6_tm_taskmeta: rows: 0
+0096.171 () Processing table (InnoDB): axm_tm_tasks - will restore as: aw_tm_tasks
+0096.182 () Atomic restore: dropping original table (voCV6_tm_tasks)
+0096.182 () Atomic restore: renaming new table (aw_tm_tasks) to final table name (voCV6_tm_tasks)
+0096.186 () Search and replacing table: voCV6_tm_tasks: rows: 0
+0096.187 () Processing table (InnoDB): axm_wc_admin_note_actions - will restore as: aw_wc_admin_note_actions
+0096.204 () Atomic restore: dropping original table (voCV6_wc_admin_note_actions)
+0096.204 () Atomic restore: renaming new table (aw_wc_admin_note_actions) to final table name (voCV6_wc_admin_note_actions)
+0096.209 () Search and replacing table: voCV6_wc_admin_note_actions: rows: 130
+0096.250 () Processing table (InnoDB): axm_wc_admin_notes - will restore as: aw_wc_admin_notes
+0096.268 () Atomic restore: dropping original table (voCV6_wc_admin_notes)
+0096.269 () Atomic restore: renaming new table (aw_wc_admin_notes) to final table name (voCV6_wc_admin_notes)
+0096.273 () Search and replacing table: voCV6_wc_admin_notes: rows: 103
+0096.364 () Processing table (InnoDB): axm_wc_customer_lookup - will restore as: aw_wc_customer_lookup
+0096.374 () Atomic restore: dropping original table (voCV6_wc_customer_lookup)
+0096.375 () Atomic restore: renaming new table (aw_wc_customer_lookup) to final table name (voCV6_wc_customer_lookup)
+0096.379 () Search and replacing table: voCV6_wc_customer_lookup: rows: 0
+0096.379 () Processing table (InnoDB): axm_wc_download_log - will restore as: aw_wc_download_log
+0096.390 () Atomic restore: dropping original table (voCV6_wc_download_log)
+0096.390 () Atomic restore: renaming new table (aw_wc_download_log) to final table name (voCV6_wc_download_log)
+0096.394 () Search and replacing table: voCV6_wc_download_log: rows: 0
+0096.394 () Processing table (InnoDB): axm_wc_order_bundle_lookup - will restore as: aw_wc_order_bundle_lookup
+0096.407 () Atomic restore: dropping original table (voCV6_wc_order_bundle_lookup)
+0096.407 () Atomic restore: renaming new table (aw_wc_order_bundle_lookup) to final table name (voCV6_wc_order_bundle_lookup)
+0096.412 () Search and replacing table: voCV6_wc_order_bundle_lookup: rows: 0
+0096.412 () Processing table (InnoDB): axm_wc_order_coupon_lookup - will restore as: aw_wc_order_coupon_lookup
+0096.423 () Atomic restore: dropping original table (voCV6_wc_order_coupon_lookup)
+0096.424 () Atomic restore: renaming new table (aw_wc_order_coupon_lookup) to final table name (voCV6_wc_order_coupon_lookup)
+0096.428 () Search and replacing table: voCV6_wc_order_coupon_lookup: rows: 0
+0096.428 () Processing table (InnoDB): axm_wc_order_product_lookup - will restore as: aw_wc_order_product_lookup
+0096.441 () Atomic restore: dropping original table (voCV6_wc_order_product_lookup)
+0096.442 () Atomic restore: renaming new table (aw_wc_order_product_lookup) to final table name (voCV6_wc_order_product_lookup)
+0096.446 () Search and replacing table: voCV6_wc_order_product_lookup: rows: 0
+0096.446 () Processing table (InnoDB): axm_wc_order_stats - will restore as: aw_wc_order_stats
+0096.457 () Atomic restore: dropping original table (voCV6_wc_order_stats)
+0096.458 () Atomic restore: renaming new table (aw_wc_order_stats) to final table name (voCV6_wc_order_stats)
+0096.462 () Search and replacing table: voCV6_wc_order_stats: rows: 0
+0096.462 () Processing table (InnoDB): axm_wc_order_tax_lookup - will restore as: aw_wc_order_tax_lookup
+0096.473 () Atomic restore: dropping original table (voCV6_wc_order_tax_lookup)
+0096.473 () Atomic restore: renaming new table (aw_wc_order_tax_lookup) to final table name (voCV6_wc_order_tax_lookup)
+0096.478 () Search and replacing table: voCV6_wc_order_tax_lookup: rows: 0
+0096.478 () Processing table (InnoDB): axm_wc_product_attributes_lookup - will restore as: aw_wc_product_attributes_lookup
+0096.489 () Atomic restore: dropping original table (voCV6_wc_product_attributes_lookup)
+0096.489 () Atomic restore: renaming new table (aw_wc_product_attributes_lookup) to final table name (voCV6_wc_product_attributes_lookup)
+0096.493 () Search and replacing table: voCV6_wc_product_attributes_lookup: rows: 8
+0096.496 () Processing table (InnoDB): axm_wc_product_download_directories - will restore as: aw_wc_product_download_directories
+0096.506 () Atomic restore: dropping original table (voCV6_wc_product_download_directories)
+0096.506 () Atomic restore: renaming new table (aw_wc_product_download_directories) to final table name (voCV6_wc_product_download_directories)
+0096.511 () Search and replacing table: voCV6_wc_product_download_directories: rows: 3
+0096.514 () Processing table (InnoDB): axm_wc_rate_limits - will restore as: aw_wc_rate_limits
+0096.523 () Atomic restore: dropping original table (voCV6_wc_rate_limits)
+0096.524 () Atomic restore: renaming new table (aw_wc_rate_limits) to final table name (voCV6_wc_rate_limits)
+0096.528 () Search and replacing table: voCV6_wc_rate_limits: rows: 0
+0096.528 () Processing table (InnoDB): axm_wc_webhooks - will restore as: aw_wc_webhooks
+0096.538 () Atomic restore: dropping original table (voCV6_wc_webhooks)
+0096.539 () Atomic restore: renaming new table (aw_wc_webhooks) to final table name (voCV6_wc_webhooks)
+0096.544 () Search and replacing table: voCV6_wc_webhooks: rows: 0
+0096.544 () Processing table (MyISAM): axm_wdap_backups - will restore as: aw_wdap_backups
+0096.551 () Atomic restore: dropping original table (voCV6_wdap_backups)
+0096.551 () Atomic restore: renaming new table (aw_wdap_backups) to final table name (voCV6_wdap_backups)
+0096.554 () Search and replacing table: voCV6_wdap_backups: rows: 0
+0096.554 () Processing table (InnoDB): axm_wdap_collection - will restore as: aw_wdap_collection
+0096.564 () Atomic restore: dropping original table (voCV6_wdap_collection)
+0096.564 () Atomic restore: renaming new table (aw_wdap_collection) to final table name (voCV6_wdap_collection)
+0096.569 () Search and replacing table: voCV6_wdap_collection: rows: 1
+0096.570 () Processing table (InnoDB): axm_wdap_geocode_details - will restore as: aw_wdap_geocode_details
+0096.580 () Atomic restore: dropping original table (voCV6_wdap_geocode_details)
+0096.580 () Atomic restore: renaming new table (aw_wdap_geocode_details) to final table name (voCV6_wdap_geocode_details)
+0096.585 () Search and replacing table: voCV6_wdap_geocode_details: rows: 0
+0096.585 () Processing table (InnoDB): axm_woocommerce_api_keys - will restore as: aw_woocommerce_api_keys
+0096.596 () Atomic restore: dropping original table (voCV6_woocommerce_api_keys)
+0096.596 () Atomic restore: renaming new table (aw_woocommerce_api_keys) to final table name (voCV6_woocommerce_api_keys)
+0096.601 () Search and replacing table: voCV6_woocommerce_api_keys: rows: 0
+0096.601 () Processing table (InnoDB): axm_woocommerce_attribute_taxonomies - will restore as: aw_woocommerce_attribute_taxonomies
+0096.611 () Atomic restore: dropping original table (voCV6_woocommerce_attribute_taxonomies)
+0096.612 () Atomic restore: renaming new table (aw_woocommerce_attribute_taxonomies) to final table name (voCV6_woocommerce_attribute_taxonomies)
+0096.616 () Search and replacing table: voCV6_woocommerce_attribute_taxonomies: rows: 10
+0096.618 () Processing table (InnoDB): axm_woocommerce_bundled_itemmeta - will restore as: aw_woocommerce_bundled_itemmeta
+0096.739 () Atomic restore: dropping original table (voCV6_woocommerce_bundled_itemmeta)
+0096.739 () Atomic restore: renaming new table (aw_woocommerce_bundled_itemmeta) to final table name (voCV6_woocommerce_bundled_itemmeta)
+0096.745 () Search and replacing table: voCV6_woocommerce_bundled_itemmeta: rows: 2205
+0096.932 () Processing table (InnoDB): axm_woocommerce_bundled_items - will restore as: aw_woocommerce_bundled_items
+0096.947 () Atomic restore: dropping original table (voCV6_woocommerce_bundled_items)
+0096.948 () Atomic restore: renaming new table (aw_woocommerce_bundled_items) to final table name (voCV6_woocommerce_bundled_items)
+0096.952 () Search and replacing table: voCV6_woocommerce_bundled_items: rows: 100
+0096.961 () Processing table (InnoDB): axm_woocommerce_downloadable_product_permissions - will restore as: aw_woocommerce_downloadable_product_permissions
+0096.974 () Atomic restore: dropping original table (voCV6_woocommerce_downloadable_product_permissions)
+0096.974 () Atomic restore: renaming new table (aw_woocommerce_downloadable_product_permissions) to final table name (voCV6_woocommerce_downloadable_product_permissions)
+0096.980 () Search and replacing table: voCV6_woocommerce_downloadable_product_permissions: rows: 0
+0096.980 () Processing table (InnoDB): axm_woocommerce_log - will restore as: aw_woocommerce_log
+0096.990 () Atomic restore: dropping original table (voCV6_woocommerce_log)
+0096.990 () Atomic restore: renaming new table (aw_woocommerce_log) to final table name (voCV6_woocommerce_log)
+0096.994 () Search and replacing table: voCV6_woocommerce_log: rows: 0
+0096.995 () Processing table (InnoDB): axm_woocommerce_order_items - will restore as: aw_woocommerce_order_items
+0097.004 () Atomic restore: dropping original table (voCV6_woocommerce_order_items)
+0097.004 () Atomic restore: renaming new table (aw_woocommerce_order_items) to final table name (voCV6_woocommerce_order_items)
+0097.007 () Skipping this table: data in this table (voCV6_woocommerce_order_items) should not be search/replaced
+0097.007 () Processing table (InnoDB): axm_woocommerce_payment_tokens - will restore as: aw_woocommerce_payment_tokens
+0097.016 () Atomic restore: dropping original table (voCV6_woocommerce_payment_tokens)
+0097.016 () Atomic restore: renaming new table (aw_woocommerce_payment_tokens) to final table name (voCV6_woocommerce_payment_tokens)
+0097.021 () Search and replacing table: voCV6_woocommerce_payment_tokens: rows: 0
+0097.021 () Processing table (InnoDB): axm_woocommerce_sessions - will restore as: aw_woocommerce_sessions
+0097.033 () Atomic restore: dropping original table (voCV6_woocommerce_sessions)
+0097.034 () Atomic restore: renaming new table (aw_woocommerce_sessions) to final table name (voCV6_woocommerce_sessions)
+0097.036 () Skipping this table: data in this table (voCV6_woocommerce_sessions) should not be search/replaced
+0097.036 () Processing table (InnoDB): axm_woocommerce_shipping_zone_locations - will restore as: aw_woocommerce_shipping_zone_locations
+0097.096 () Atomic restore: dropping original table (voCV6_woocommerce_shipping_zone_locations)
+0097.096 () Atomic restore: renaming new table (aw_woocommerce_shipping_zone_locations) to final table name (voCV6_woocommerce_shipping_zone_locations)
+0097.101 () Search and replacing table: voCV6_woocommerce_shipping_zone_locations: rows: 1128
+0097.201 () Processing table (InnoDB): axm_woocommerce_shipping_zone_methods - will restore as: aw_woocommerce_shipping_zone_methods
+0097.212 () Atomic restore: dropping original table (voCV6_woocommerce_shipping_zone_methods)
+0097.212 () Atomic restore: renaming new table (aw_woocommerce_shipping_zone_methods) to final table name (voCV6_woocommerce_shipping_zone_methods)
+0097.216 () Search and replacing table: voCV6_woocommerce_shipping_zone_methods: rows: 11
+0097.218 () Processing table (InnoDB): axm_woocommerce_shipping_zones - will restore as: aw_woocommerce_shipping_zones
+0097.228 () Atomic restore: dropping original table (voCV6_woocommerce_shipping_zones)
+0097.229 () Atomic restore: renaming new table (aw_woocommerce_shipping_zones) to final table name (voCV6_woocommerce_shipping_zones)
+0097.232 () Search and replacing table: voCV6_woocommerce_shipping_zones: rows: 6
+0097.233 () Processing table (InnoDB): axm_woocommerce_square_customers - will restore as: aw_woocommerce_square_customers
+0097.243 () Atomic restore: dropping original table (voCV6_woocommerce_square_customers)
+0097.244 () Atomic restore: renaming new table (aw_woocommerce_square_customers) to final table name (voCV6_woocommerce_square_customers)
+0097.248 () Search and replacing table: voCV6_woocommerce_square_customers: rows: 1
+0097.249 () Processing table (InnoDB): axm_woocommerce_tax_rate_locations - will restore as: aw_woocommerce_tax_rate_locations
+0097.259 () Atomic restore: dropping original table (voCV6_woocommerce_tax_rate_locations)
+0097.260 () Atomic restore: renaming new table (aw_woocommerce_tax_rate_locations) to final table name (voCV6_woocommerce_tax_rate_locations)
+0097.264 () Search and replacing table: voCV6_woocommerce_tax_rate_locations: rows: 0
+0097.264 () Processing table (InnoDB): axm_woocommerce_tax_rates - will restore as: aw_woocommerce_tax_rates
+0097.278 () Atomic restore: dropping original table (voCV6_woocommerce_tax_rates)
+0097.278 () Atomic restore: renaming new table (aw_woocommerce_tax_rates) to final table name (voCV6_woocommerce_tax_rates)
+0097.284 () Search and replacing table: voCV6_woocommerce_tax_rates: rows: 0
+0097.284 () Processing table (InnoDB): axm_yoast_indexable - will restore as: aw_yoast_indexable
+0098.996 () Atomic restore: dropping original table (voCV6_yoast_indexable)
+0098.997 () Atomic restore: renaming new table (aw_yoast_indexable) to final table name (voCV6_yoast_indexable)
+0099.011 () Search and replacing table: voCV6_yoast_indexable: rows: 8471
+0104.481 () Searching and replacing reached row: 5000
+0108.960 () Processing table (InnoDB): axm_yoast_indexable_hierarchy - will restore as: aw_yoast_indexable_hierarchy
+0109.274 () Atomic restore: dropping original table (voCV6_yoast_indexable_hierarchy)
+0109.274 () Atomic restore: renaming new table (aw_yoast_indexable_hierarchy) to final table name (voCV6_yoast_indexable_hierarchy)
+0109.282 () Search and replacing table: voCV6_yoast_indexable_hierarchy: rows: 8471
+0109.816 () Searching and replacing reached row: 5000
+0110.184 () Processing table (InnoDB): axm_yoast_migrations - will restore as: aw_yoast_migrations
+0110.196 () Atomic restore: dropping original table (voCV6_yoast_migrations)
+0110.196 () Atomic restore: renaming new table (aw_yoast_migrations) to final table name (voCV6_yoast_migrations)
+0110.200 () Search and replacing table: voCV6_yoast_migrations: rows: 26
+0110.202 () Processing table (InnoDB): axm_yoast_primary_term - will restore as: aw_yoast_primary_term
+0110.215 () Atomic restore: dropping original table (voCV6_yoast_primary_term)
+0110.215 () Atomic restore: renaming new table (aw_yoast_primary_term) to final table name (voCV6_yoast_primary_term)
+0110.219 () Search and replacing table: voCV6_yoast_primary_term: rows: 51
+0110.225 () Processing table (InnoDB): axm_yoast_prominent_words - will restore as: aw_yoast_prominent_words
+0110.234 () Atomic restore: dropping original table (voCV6_yoast_prominent_words)
+0110.235 () Atomic restore: renaming new table (aw_yoast_prominent_words) to final table name (voCV6_yoast_prominent_words)
+0110.239 () Search and replacing table: voCV6_yoast_prominent_words: rows: 0
+0110.239 () Processing table (InnoDB): axm_yoast_seo_links - will restore as: aw_yoast_seo_links
+0110.361 () Unlocking database and leaving maintenance mode
+0110.361 () Disabling Maintenance mode&#8230;
+0110.362 () Atomic restore: dropping original table (voCV6_yoast_seo_links)
+0110.362 () Atomic restore: renaming new table (aw_yoast_seo_links) to final table name (voCV6_yoast_seo_links)
+0110.367 () Search and replacing table: voCV6_yoast_seo_links: rows: 1672
+0111.146 () Finished: lines processed: 477 in 111.07 seconds
+0111.148 () Cleaning up rubbish...
+0111.148 () Begin search and replace (updraftplus_restored_db)
+0111.148 () [Database-replace-site-url] Database: search and replace site URL
+0111.149 () Restored pre-migration site ID for this installation
+0111.162 () Database search and replace: replace https://dev.chetozoz.com.au in backup dump with https://dev01.chetoz-oz.com.au
+0111.162 () Database search and replace: replace http://www.dev.chetozoz.com.au in backup dump with https://dev01.chetoz-oz.com.au
+0111.163 () Database search and replace: replace http://dev.chetozoz.com.au in backup dump with https://dev01.chetoz-oz.com.au
+0111.163 () Database search and replace: replace https://www.dev.chetozoz.com.au in backup dump with https://dev01.chetoz-oz.com.au
+0111.163 () Database search and replace: replace /www/wwwroot/dev.chetozoz.com.au in backup dump with /www/wwwroot/dev01.chetoz-oz.com.au
+0111.176 () Entity: plugins
+0111.176 () restore_backup(backup_file=backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:54:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0111.177 () Unpacking backup... (backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-plugins.zip, 94.6 MB)
+0111.180 () Unzipping backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-plugins.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/cb67d3a2/ using UpdraftPlus_ZipArchive, starting index 0
+0112.547 () Unzip progress: 3324 out of 23406 files (35 KB, plugins/markup-by-attribute-for-woocommerce/LICENSE)
+0112.818 () Unzip progress: 4325 out of 23406 files (14.8 MB, plugins/revslider/public/assets/assets/svg/maps/ic_local_hotel_24px.svg)
+0113.049 () Unzip progress: 5326 out of 23406 files (17.2 MB, plugins/revslider/public/assets/assets/svg/busy-icons-svg/chart-pyramid.svg)
+0113.341 () Unzip progress: 6327 out of 23406 files (35 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Http/Message/Formatter.php)
+0113.631 () Unzip progress: 7328 out of 23406 files (43.2 MB, plugins/updraftplus/css/tether-shepherd/shepherd-theme-square-dark.min.css)
+0114.103 () Unzip progress: 8329 out of 23406 files (59 MB, plugins/unlimited-elements-for-elementor-premium/provider/freemius/templates/auto-installation.php)
+0114.474 () Unzip progress: 9330 out of 23406 files (94.3 MB, plugins/booster-plus-for-woocommerce/includes/class-wcj-cart.php)
+0114.749 () Unzip progress: 10331 out of 23406 files (108.5 MB, plugins/elementor/assets/lib/dialog/dialog.min.js)
+0115.111 () Unzip progress: 11332 out of 23406 files (144.5 MB, plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/contact-form-7.css)
+0115.539 () Unzip progress: 12333 out of 23406 files (179.8 MB, plugins/panpie-core/elementor/views/shape-animation-2.php)
+0115.780 () Unzip progress: 13334 out of 23406 files (188.4 MB, plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-product-shipping-classes-v2-controller.php)
+0116.013 () Unzip progress: 14335 out of 23406 files (195.1 MB, plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Value/LineName.php)
+0116.264 () Unzip progress: 15336 out of 23406 files (205.1 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/context/providers/add-to-cart-form/form/index.js)
+0116.504 () Unzip progress: 16337 out of 23406 files (206.8 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/checkout/inner-blocks/checkout-order-summary-block/test/block.js)
+0116.773 () Unzip progress: 17338 out of 23406 files (219 MB, plugins/woocommerce/assets/client/admin/product-editor/blocks/images/edit.js)
+0117.030 () Unzip progress: 18339 out of 23406 files (226.9 MB, plugins/import-products-from-gsheet-for-woo-importer/vendor/google/apiclient/src/AuthHandler/Guzzle5AuthHandler.php)
+0117.285 () Unzip progress: 19340 out of 23406 files (234.4 MB, plugins/xt-woo-quick-view/xt-framework/includes/customizer/xirki/modules/custom-sections/sections/class-xirki-sections-link-section.php)
+0117.537 () Unzip progress: 20341 out of 23406 files (242.8 MB, plugins/elementor-pro/modules/theme-builder/conditions/date.php)
+0117.837 () Unzip progress: 21342 out of 23406 files (264.5 MB, plugins/wordpress-seo/src/helpers/current-page-helper.php)
+0118.096 () Unzip progress: 22343 out of 23406 files (276.3 MB, plugins/ninja-tables-pro/app/Traits/CustomFilter.php)
+0118.304 () Unzip progress: 23344 out of 23406 files (278.4 MB, plugins/ninja-tables-pro/assets/libs/icons/bag-add-outline.svg)
+0118.321 () Unzip progress: 23406 out of 23406 files (278.7 MB, plugins/classic-editor/js/block-editor-plugin.js)
+0118.327 () Moving old data: filesystem method / updraft_dir is potentially possible
+0118.328 () Moving old data: can potentially use wp_filesystem method / -old
+0118.328 () Moving old data out of the way...
+0126.041 () Top-level entities being moved: booster-plus-for-woocommerce, classic-editor, colorlib-login-customizer, disable-admin-notices, elementor, elementor-pro, error-log-monitor, essential-addons-elementor, essential-addons-for-elementor-lite, favhero-favicon-generator, filter-everything-pro, import-products-from-gsheet-for-woo-importer, markup-by-attribute-for-woocommerce, media-cleaner-pro, ninja-tables, ninja-tables-pro, panpie-core, revslider, shipping-zone-duplicator-for-woocommerce, skyboot-custom-icons-for-elementor, unlimited-elements-for-elementor-premium, updraftplus, woocommerce, woocommerce-advanced-shipping, woocommerce-checkout-field-editor-pro, woocommerce-extra-product-options-pro, woocommerce-gateway-stripe, wordpress-seo, wordpress-seo-premium, wp-multi-step-checkout-pro, wps-hide-login, xt-woo-quick-view
+0126.059 () Moving unpacked backup into place...
+0134.018 () Top-level entities being moved: booster-plus-for-woocommerce, classic-editor, colorlib-login-customizer, disable-admin-notices, elementor, elementor-pro, error-log-monitor, essential-addons-elementor, essential-addons-for-elementor-lite, favhero-favicon-generator, filter-everything-pro, import-products-from-gsheet-for-woo-importer, markup-by-attribute-for-woocommerce, media-cleaner-pro, ninja-tables, ninja-tables-pro, panpie-core, revslider, shipping-zone-duplicator-for-woocommerce, skyboot-custom-icons-for-elementor, unlimited-elements-for-elementor-premium, updraftplus, woocommerce, woocommerce-advanced-shipping, woocommerce-checkout-field-editor-pro, woocommerce-extra-product-options-pro, woocommerce-gateway-stripe, wordpress-seo, wordpress-seo-premium, wp-multi-step-checkout-pro, wps-hide-login, xt-woo-quick-view
+0134.038 () Cleaning up rubbish...
+0134.043 () restore_backup(backup_file=backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-plugins2.zip, type=plugins, info=a:3:{s:4:"path";s:54:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0134.043 () Unpacking backup... (backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-plugins2.zip, 0.6 MB)
+0134.043 () Unzipping backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-plugins2.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/f3fad39c/ using UpdraftPlus_ZipArchive, starting index 0
+0134.670 () Unzip progress: 3324 out of 3324 files (1.2 KB, updraftplus-manifest.json)
+0134.672 () Moving unpacked backup into place...
+0136.417 () Top-level entities being moved: booster-plus-for-woocommerce, classic-editor, colorlib-login-customizer, disable-admin-notices, elementor, elementor-pro, error-log-monitor, essential-addons-elementor, essential-addons-for-elementor-lite, favhero-favicon-generator, filter-everything-pro, import-products-from-gsheet-for-woo-importer, markup-by-attribute-for-woocommerce, media-cleaner-pro, ninja-tables, ninja-tables-pro, panpie-core, revslider, shipping-zone-duplicator-for-woocommerce, skyboot-custom-icons-for-elementor, unlimited-elements-for-elementor-premium, updraftplus, woocommerce, woocommerce-advanced-shipping, woocommerce-checkout-field-editor-pro, woocommerce-extra-product-options-pro, woocommerce-gateway-stripe, wordpress-seo, wordpress-seo-premium, wp-multi-step-checkout-pro, wps-hide-login, xt-woo-quick-view
+0137.276 () Cleaning up rubbish...
+0137.281 () restore_backup(backup_file=backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-plugins3.zip, type=plugins, info=a:3:{s:4:"path";s:54:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0137.281 () Unpacking backup... (backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-plugins3.zip, 0.6 MB)
+0137.281 () Unzipping backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-plugins3.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/e8cfaba8/ using UpdraftPlus_ZipArchive, starting index 0
+0137.900 () Unzip progress: 3324 out of 3324 files (1.2 KB, updraftplus-manifest.json)
+0137.902 () Moving unpacked backup into place...
+0139.430 () Top-level entities being moved: booster-plus-for-woocommerce, classic-editor, colorlib-login-customizer, disable-admin-notices, elementor, elementor-pro, error-log-monitor, essential-addons-elementor, essential-addons-for-elementor-lite, favhero-favicon-generator, filter-everything-pro, import-products-from-gsheet-for-woo-importer, markup-by-attribute-for-woocommerce, media-cleaner-pro, ninja-tables, ninja-tables-pro, panpie-core, revslider, shipping-zone-duplicator-for-woocommerce, skyboot-custom-icons-for-elementor, unlimited-elements-for-elementor-premium, updraftplus, woocommerce, woocommerce-advanced-shipping, woocommerce-checkout-field-editor-pro, woocommerce-extra-product-options-pro, woocommerce-gateway-stripe, wordpress-seo, wordpress-seo-premium, wp-multi-step-checkout-pro, wps-hide-login, xt-woo-quick-view
+0140.290 () Cleaning up rubbish...
+0140.546 () Entity: themes
+0140.546 () restore_backup(backup_file=backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-themes.zip, type=themes, info=a:3:{s:4:"path";s:53:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0140.546 () Unpacking backup... (backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-themes.zip, 34.5 MB)
+0140.547 () Unzipping backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-themes.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/3aec7cd1/ using UpdraftPlus_ZipArchive, starting index 0
+0140.808 () Unzip progress: 1002 out of 3277 files (13.1 MB, themes/storefront/vendor/phpcompatibility/php-compatibility/PHPCompatibility/Sniffs/UseDeclarations/NewGroupUseDeclarationsSniff.php)
+0141.055 () Unzip progress: 2003 out of 3277 files (16.2 MB, themes/storefront/vendor/squizlabs/php_codesniffer/src/Standards/Squiz/Tests/Functions/GlobalFunctionUnitTest.inc)
+0141.318 () Unzip progress: 3004 out of 3277 files (26.1 MB, themes/panpie/assets/img/menu_bg1_1.png)
+0141.450 () Unzip progress: 3277 out of 3277 files (48.9 MB, themes/panpie/search.php)
+0141.452 () Moving old data: filesystem method / updraft_dir is potentially possible
+0141.452 () Moving old data: can potentially use wp_filesystem method / -old
+0141.452 () Moving old data out of the way...
+0142.532 () Top-level entities being moved: chetoz, panpie, storefront, twentytwentyone, twentytwentythree, twentytwentytwo
+0142.535 () Moving unpacked backup into place...
+0143.774 () Top-level entities being moved: chetoz, panpie, storefront, twentytwentyone, twentytwentythree, twentytwentytwo
+0143.777 () Cleaning up rubbish...
+0143.781 () restore_backup(backup_file=backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-themes2.zip, type=themes, info=a:3:{s:4:"path";s:53:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0143.781 () Unpacking backup... (backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-themes2.zip, 0.1 MB)
+0143.781 () Unzipping backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-themes2.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/eb184c5d/ using UpdraftPlus_ZipArchive, starting index 0
+0143.853 () Unzip progress: 473 out of 473 files (252 B, updraftplus-manifest.json)
+0143.854 () Moving unpacked backup into place...
+0144.092 () Top-level entities being moved: chetoz, panpie, storefront, twentytwentyone, twentytwentythree, twentytwentytwo
+0144.226 () Cleaning up rubbish...
+0144.229 () restore_backup(backup_file=backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-themes3.zip, type=themes, info=a:3:{s:4:"path";s:53:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0144.229 () Unpacking backup... (backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-themes3.zip, 0.1 MB)
+0144.230 () Unzipping backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-themes3.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/6e1cfc79/ using UpdraftPlus_ZipArchive, starting index 0
+0144.299 () Unzip progress: 473 out of 473 files (252 B, updraftplus-manifest.json)
+0144.300 () Moving unpacked backup into place...
+0144.536 () Top-level entities being moved: chetoz, panpie, storefront, twentytwentyone, twentytwentythree, twentytwentytwo
+0144.670 () Cleaning up rubbish...
+0144.678 () Entity: uploads
+0144.678 () restore_backup(backup_file=backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0144.678 () Unpacking backup... (backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-uploads.zip, 149.6 MB)
+0144.678 () Unzipping backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-uploads.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/e539e553/ using UpdraftPlus_ZipArchive, starting index 0
+0145.023 () Unzip progress: 1002 out of 1670 files (61 MB, uploads/2020/11/pro_03-150x150.png)
+0146.547 () Unzip progress: 1375 out of 1670 files (161.2 MB, uploads/2023/06/logo-768x811.png)
+0146.915 () Unzip progress: 1670 out of 1670 files (193.4 MB, uploads/wpmc-trash/2023/06/favicon-144.png)
+0146.918 () Moving old data: filesystem method / updraft_dir is potentially possible
+0146.918 () Moving old data: can potentially use wp_filesystem method / -old
+0146.918 () Moving old data out of the way...
+0147.607 () Moving unpacked backup into place...
+0148.043 () Cleaning up rubbish...
+0148.047 () restore_backup(backup_file=backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-uploads2.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0148.047 () Unpacking backup... (backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-uploads2.zip, 0 MB)
+0148.048 () Unzipping backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-uploads2.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/caecbfb4/ using UpdraftPlus_ZipArchive, starting index 0
+0148.060 () Unzip progress: 80 out of 80 files (7.1 KB, updraftplus-manifest.json)
+0148.061 () Moving unpacked backup into place...
+0148.109 () Cleaning up rubbish...
+0148.113 () restore_backup(backup_file=backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-uploads3.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0148.113 () Unpacking backup... (backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-uploads3.zip, 0 MB)
+0148.113 () Unzipping backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-uploads3.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/d0e7960b/ using UpdraftPlus_ZipArchive, starting index 0
+0148.125 () Unzip progress: 80 out of 80 files (7.1 KB, updraftplus-manifest.json)
+0148.126 () Moving unpacked backup into place...
+0148.174 () Cleaning up rubbish...
+0148.213 () Entity: others
+0148.213 () restore_backup(backup_file=backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-others.zip, type=others, info=a:2:{s:4:"path";s:46:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content";s:11:"description";s:6:"Others";}, last_one=)
+0148.214 () Unpacking backup... (backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-others.zip, 0 MB)
+0148.214 () Unzipping backup_2023-07-11-0141_Chetoz_OZ_3bcfe44f1a2b-others.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/bcef95a0/ using UpdraftPlus_ZipArchive, starting index 0
+0148.220 () Unzip progress: 9 out of 9 files (713.9 KB, advanced-headers.php)
+0148.224 () Cleaning up rubbish...
+0148.227 () restore_backup(backup_file=backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-others2.zip, type=others, info=a:2:{s:4:"path";s:46:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content";s:11:"description";s:6:"Others";}, last_one=)
+0148.227 () Unpacking backup... (backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-others2.zip, 0 MB)
+0148.228 () Unzipping backup_2023-07-11-0144_Chetoz_OZ_3bcfe44f1a2b-others2.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/70fd4e16/ using UpdraftPlus_ZipArchive, starting index 0
+0148.231 () Unzip progress: 3 out of 3 files (282 B, updraftplus-manifest.json)
+0148.233 () Cleaning up rubbish...
+0148.237 () restore_backup(backup_file=backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-others3.zip, type=others, info=a:2:{s:4:"path";s:46:"/www/wwwroot/dev01.chetoz-oz.com.au/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0148.237 () Unpacking backup... (backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-others3.zip, 0 MB)
+0148.237 () Unzipping backup_2023-07-11-0152_Chetoz_OZ_3bcfe44f1a2b-others3.zip to /www/wwwroot/dev01.chetoz-oz.com.au/wp-content/upgrade/0e8b3ba7/ using UpdraftPlus_ZipArchive, starting index 0
+0148.241 () Unzip progress: 3 out of 3 files (282 B, updraftplus-manifest.json)
+0148.243 () Cleaning up rubbish...
+0148.268 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+0148.281 () Restore successful!
+0148.282 () Restore successful

@@ -1,0 +1,67 @@
+<wpml-config>
+    <admin-texts>
+        <key name="panpie">
+            <key name="phone" />
+            <key name="email" />
+            <key name="openhour" />
+            <key name="address" />			
+            <key name="header_location" />
+            <key name="header_hotline_txt" />
+            <key name="header_mailus_txt" />
+            <key name="header_open_txt" />			
+            <key name="online_button_text" />			
+            <key name="copyright_text" />
+            <key name="port_related_title" />
+            <key name="event_related_title" />
+            <key name="team_form_title" />
+            <key name="team_related_title" />			
+            <key name="error_title" />
+            <key name="error_text1" />
+            <key name="error_text2" />
+            <key name="error_buttontext" />			
+            <key name="team_slug" />
+            <key name="event_slug" />
+            <key name="portfolio_slug" />
+            <key name="testimonial_slug" />			
+            <key name="event_cat_slug" />
+            <key name="team_cat_slug" />
+            <key name="portfolio_cat_slug" />
+            <key name="testim_cat_slug" />
+        </key>
+    </admin-texts>
+	<custom-types>
+        <custom-type translate="1">panpie_team</custom-type>
+        <custom-type translate="1">panpie_event</custom-type>
+        <custom-type translate="1">panpie_gallery</custom-type>
+        <custom-type translate="1">panpie_testim</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">panpie_team_category</taxonomy>
+        <taxonomy translate="1">panpie_event_category</taxonomy>
+        <taxonomy translate="1">panpie_gallery_category</taxonomy>
+        <taxonomy translate="1">panpie_testimonial_category</taxonomy>
+    </taxonomies>
+	<custom-fields>
+       <custom-field action="translate">panpie_post_gallery</custom-field>
+       <custom-field action="translate">panpie_team_position</custom-field>
+       <custom-field action="translate">panpie_team_experience</custom-field>
+       <custom-field action="translate">panpie_team_email</custom-field>
+       <custom-field action="translate">panpie_team_phone</custom-field>
+       <custom-field action="translate">panpie_team_address</custom-field>
+       <custom-field action="translate">panpie_team_socials_header</custom-field>
+       <custom-field action="translate">panpie_team_contact_form</custom-field>
+       <custom-field action="translate">skill_name</custom-field>
+       <custom-field action="translate">skill_value</custom-field>	   
+       <custom-field action="translate">panpie_event_style</custom-field>
+       <custom-field action="translate">panpie_event_title</custom-field>
+       <custom-field action="translate">panpie_event_text</custom-field>
+       <custom-field action="translate">panpie_event_address</custom-field>
+       <custom-field action="translate">panpie_event_phone</custom-field>
+       <custom-field action="translate">panpie_event_mail</custom-field>
+       <custom-field action="translate">panpie_event_open</custom-field>	   
+       <custom-field action="translate">panpie_event_button</custom-field>
+       <custom-field action="translate">panpie_port_gallery</custom-field>
+       <custom-field action="translate">panpie_port_button</custom-field>    
+       <custom-field action="translate">panpie_tes_designation</custom-field>       
+   </custom-fields>
+</wpml-config>

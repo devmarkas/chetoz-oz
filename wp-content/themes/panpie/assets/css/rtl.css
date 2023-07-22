@@ -1,0 +1,30 @@
+.custom2 .tp-leftarrow.hephaistos:before {
+    left: 45px;
+}
+.custom2 .tp-rightarrow.hephaistos:before {
+    right: 45px;
+}
+.btn-fill-light i,
+.btn-fill-dark i,
+.post-default.post-grid-style2 .blog-btn i,
+.blog-layout-1 .blog-box .entry-content .blog-btn i,
+.footer-top-area .widget ul.menu li a:before,
+.sidebar-widget-area .widget ul li a:before {
+    transform: rotate(-180deg);
+}
+.post-default.post-grid-style2 .blog-btn i,
+.blog-layout-1 .blog-box .entry-content .blog-btn i {
+    padding-left: 8px;
+    padding-right: inherit;
+}
+.post-default.post-grid-style2 .blog-btn:hover i,
+.blog-layout-1 .blog-box .entry-content .blog-btn:hover i {
+    padding-left: 14px;
+    padding-right: inherit;
+}
+.image-style3 {
+    transform: translateX(-15%);
+}
+.entry-header .entry-meta ul li {
+    display: inline-block;
+}
